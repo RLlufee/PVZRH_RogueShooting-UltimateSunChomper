@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RogueShooting-UltimateSunChomper</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateSunChomper.BepInEx">
+      <HintPath>..\UltimateSunChomper.BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="ShootingMODGeneralLib">
+      <HintPath>..\ShootingMODGeneralLib\bin\Debug\net6.0\ShootingMODGeneralLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>Z:\pvz\植物大战僵尸融合版4.0雪夜上半\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+
