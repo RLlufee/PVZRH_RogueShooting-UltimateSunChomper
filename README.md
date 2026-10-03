@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/assets/ultimate-sun-chomper-banner.svg" alt="终焉级圣樱战神·诸神进化附属插件" width="100%">
-
 # PVZRH_RogueShooting-UltimateSunChomper
 
 **终焉级圣樱战神的「诸神进化」附属插件**
